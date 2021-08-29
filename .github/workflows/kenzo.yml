@@ -49,6 +49,7 @@ jobs:
         rm -Rf *
         git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
+        
     - name: Upload
       env: 
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
