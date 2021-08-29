@@ -58,7 +58,6 @@ svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-gost
 
 
-
 rm -rf ./*/.git
 rm -f ./*/.gitattributes
 rm -rf ./*/.svn
